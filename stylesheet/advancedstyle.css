@@ -1,0 +1,54 @@
+
+body {
+    display:block;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+    background-color: #fff;
+}
+
+.links {
+    display: inline-block;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    line-height: 24px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.image {
+    content: url(../images/googlelogo.png);
+    height: 24px;
+    width: 74px;
+}
+
+h2 {
+    color: #d93025;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+input[type="submit"] {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    appearance: auto;
+    outline: 0;
+    padding: 6px 12px;
+    user-select: none;
+    height: 30px;
+}
