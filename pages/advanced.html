@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google Images</title>
+        <title>Google Advanced Search</title>
     </head>
     <body>
         <ul>
-            <li><a href="#" alt="Advanced search">Google Advanced Search</a></li>
-            <li><a href="#" alt="images">Google Images</a></li>
+            <li><a href="../index.html" alt="Google search">Google Search</a></li>
+            <li><a href="image.html" alt="images">Google Images</a></li>
         </ul>
         <form action="https://www.google.rw/search">
             <h4>Find pages with...</h4>
             <label>To do this in the search box.</label>
             <label>all these words</label>
-            <input type="text" name="q">
+            <input type="text" name="as_q" autofocus="autofocus">
             <div>Type the important words: <span>tri-color rat terrier</span></div>
             <label>this exact word or phrase</label>
-            <input type="text" name="q">
+            <input type="text" name="as_epq">
             <div>Put exact words in quotes: <span> rat terrier</span></div>
             <label>any of these words</label>
-            <input type="text" name="q">
+            <input type="text" name="as_oq">
             <div>Type OR between all the words you want: <span> miniature OR standard</span></div>
             <label>none of these words</label>
-            <input type="text" name="q">
+            <input type="text" name="as_eq">
             <div>Put a minus sign just before words that you don't want: <span> -rodent, -"Jack Russell"</span></div>
-            <input type="submit" name="tbn" value="Google Advanced Search">
+            <input type="submit" value="Google Advanced Search">
         </form>
     </body>
 </html>
