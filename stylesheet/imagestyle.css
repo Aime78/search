@@ -1,5 +1,5 @@
 
-/* The body of the page */
+/* The main body of the page */
 * {
     margin: 0px;
 }
@@ -16,7 +16,7 @@ body {
     background-color: #fff;
 }
 
-/* The navigation of the page */
+/* The navigation bar of the page */
 .nav {
     height: 42px;
     display: flex;
@@ -24,6 +24,7 @@ body {
     gap: 20px;
     padding-right: 20px;
 }
+
 .links {
     display: inline-block;
     vertical-align: middle;
@@ -39,14 +40,31 @@ a:hover{
 }
 
 /* The main content of the page */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+}
 .image {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.specifier {
+    position: absolute;
+    color: #4285f4;
+    font-size: 11px;
+    margin-left: 198px;
+    top: 26em;
+    text-align: center;
+    
 }
 
 .container-form {
-    border: 30px solid white;
+    border: 20px;
     display: flex;
     justify-content: center;
 }
@@ -56,6 +74,7 @@ a:hover{
     gap: 10px;
     margin-top: 15px;
 }
+
 input {
     background-color: transparent;
     border:none;
@@ -71,12 +90,13 @@ input {
 }
 
 input[type="text"] {
-    margin-left: -150px;
-    width: 200%;
-    height: 40px;
-    border-radius: 4em / 5em;;
+    margin-left: -250px;
+    width: 500%;
+    height: 35px;
     border: 1px solid black;
+    border-radius: 4em / 5em;;
 }
+
 input[type="submit"] {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;

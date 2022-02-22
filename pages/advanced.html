@@ -5,35 +5,50 @@
         <link rel="stylesheet" href="../stylesheet/advancedstyle.css">
     </head>
     <body>
-        <span class="image"></span>
-        <div class="container">
-            <a href="../index.html" alt="Google search" class="links">Google Search</a>
-            <a href="image.html" alt="images" class="links">Google Images</a>
+        
+        <!--The navigation bar of the page-->
+        <div class="nav">
+            <span class="logo"></span>
+            <div class="container-nav">
+                <a href="../index.html" alt="Google search" class="links">Google Search</a>
+                <a href="image.html" alt="images" class="links">Google Images</a>
+            </div>
         </div>
         <h2>Advanced Search</h2>
-        <form action="https://www.google.rw/search">
-            <h4>Find pages with...</h4>
-            <label>To do this in the search box.</label>
-            <label>all these words</label>
-            <input type="text" name="as_q" autofocus="autofocus">
-            <div>Type the important words: <span>tri-color rat terrier</span></div>
-            <label>this exact word or phrase</label>
-            <input type="text" name="as_epq">
-            <div>Put exact words in quotes: <span> rat terrier</span></div>
-            <label>any of these words</label>
-            <input type="text" name="as_oq">
-            <div>Type OR between all the words you want: <span> miniature OR standard</span></div>
-            <label>none of these words</label>
-            <input type="text" name="as_eq">
-            <div>Put a minus sign just before words that you don't want: <span> -rodent, -"Jack Russell"</span></div>
-            <input type="submit" value="Advanced Search">
-        </form>
 
+        <!--The main content of the page-->
+        <div class="content">
+            <div class="heading">
+                <h4 >Find pages with...</h4>
+                <h4 class="title">To do this in the search box.</h4>
+            </div>
+
+            <!--Data inputs-->
+            <form action="https://www.google.rw/search">
+                <div class="container">
+                    <label>all these words:</label>
+                    <input type="text" class="form-control" name="as_q" autofocus="autofocus">
+                    <div class="precision">Type the important words: <span>tri-color rat terrier</span></div>
+                    <label>this exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                    <div class="precision">Put exact words in quotes: <span> rat terrier</span></div>
+                    <label>any of these words:</label>
+                    <input type="text" name="as_oq">
+                    <div class="precision">Type OR between all the words you want: <span> miniature OR standard</span></div>
+                    <label>none of these words:</label>
+                    <input type="text" name="as_eq">
+                    <div class="precision">Put a minus sign just before words that you don't want: <span> -rodent, -"Jack Russell"</span></div>
+                </div>
+                <input type="submit" value="Advanced Search">
+            </form>
+        </div>
+
+        <!--The footer of the page-->
         <footer>
-            <div class="container">
-                <a href="#" alt="about" class="links">Help</a>
-                <a href="#" alt="about" class="links">Privacy</a>
-                <a href="#" alt="about" class="links">Terms</a>
+            <div class="container-footer">
+                <a href="#" alt="about" class="footer-links">Help</a>
+                <a href="#" alt="about" class="footer-links">Privacy</a>
+                <a href="#" alt="about" class="footer-links">Terms</a>
             </div>
     </body>
 </html>

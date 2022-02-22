@@ -5,27 +5,41 @@
         <link rel="stylesheet" href="stylesheet/style.css">
     </head>
     <body>
-        <div class="container">
+        
+        <!--The navigation bar of the page-->
+        <div class="nav">
             <a href="pages/advanced.html" alt="Advanced search" class="links">Advanced search</a>
             <a href="pages/image.html" alt="images" class="links">Google Images</a>
         </div>
+        <div class="image">
+            <img src="images/googlelogo.png" alt="google logo" >
+        </div>
 
-        <img src="images/googlelogo.png" alt="google logo" >
-        <form action="https://www.google.com/search">
-            <input type="text" class="text" name="q" autofocus="autofocus">
-            <input type="submit" value="Google Search">
-            <input type="submit" name="btnI" value="I'm feeling lucky">
-        </form>
+        <!--The main content of the page-->
+        <div class="container-form">
+            <form action="https://www.google.com/search">
+                <input type="text" class="text" name="q" autofocus="autofocus">
+                <div class="submit-button">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" name="btnI" value="I'm feeling lucky">
+                </div>
+            </form>
+        </div>
 
+        <!--The footer of the page-->
         <footer>
-            <div class="container">
-                <a href="#" alt="about" class="links">About</a>
-                <a href="#" alt="about" class="links">Advertising</a>
-                <a href="#" alt="about" class="links">Business</a>
-                <a href="#" alt="about" class="links">How Search works</a>
-                <a href="#" alt="about" class="links">Privacy</a>
-                <a href="#" alt="about" class="links">Terms</a>
-                <a href="#" alt="about" class="links">Settings</a>
+            <div class="container-footer">
+                <div class="left-links">
+                    <a href="#" alt="about" class="footer-links">About</a>
+                    <a href="#" alt="about" class="footer-links">Advertising</a>
+                    <a href="#" alt="about" class="footer-links">Business</a>
+                    <a href="#" alt="about" class="footer-links">How Search works</a>
+                </div>
+                <div class="right-links">
+                    <a href="#" alt="about" class="footer-links">Privacy</a>
+                    <a href="#" alt="about" class="footer-links">Terms</a>
+                    <a href="#" alt="about" class="footer-links">Settings</a>
+                </div>
             </div>
         </footer>
     </body>
